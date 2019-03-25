@@ -12,6 +12,49 @@
 			"program": "${fileDirname}",
 			"env": {},
 			"args": []
+        },
+        {
+            "name": "Les5 ex02",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceRoot}/lesson5/example02-flag/",
+            "env": {},
+            "args": [
+                "-fint=54",
+                "-fstr",
+                "world"
+            ]
+        },
+        {
+            "name": "Les5 ex03",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceRoot}/lesson5/example03-flag/",
+            "env": {},
+            "args": [
+                "-word=opt",
+                "-numb=7",
+                "-fork=1",
+                "-svar=flag",
+                "other args"
+            ]
+        },
+        {
+            "name": "Les5 ex03 2",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceRoot}/lesson5/example03-flag/",
+            "env": {},
+            "args": [
+                "-word=opt",
+                "other args",
+                "-numb=7",
+                "-fork=1",
+                "-svar=flag"
+            ]
         }
     ]
 }
